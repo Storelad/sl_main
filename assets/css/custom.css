@@ -1,0 +1,39 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.dark #header-wrap:not(.not-dark) #primary-menu>ul>li>a,
+.dark #header-wrap:not(.not-dark) #primary-menu>.container>ul>li>a,
+.dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu>ul>li>a,
+.overlay-menu #primary-menu.dark>ul>li>a,
+.dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu>#overlay-menu-close,
+.overlay-menu #primary-menu.dark>#overlay-menu-close,
+.dark #header-wrap:not(.not-dark) #top-search a,
+.dark #header-wrap:not(.not-dark) #top-cart a,
+.dark #header-wrap:not(.not-dark) #side-panel-trigger a,
+.dark #header-wrap:not(.not-dark) #top-account a,
+.dark #top-cart .top-cart-item-desc a,
+body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
+.dark #header-wrap:not(.not-dark) #top-search a:hover,
+.dark #header-wrap:not(.not-dark) #top-cart a:hover,
+.dark #header-wrap:not(.not-dark) #side-panel-trigger a:hover,
+.dark #header-wrap:not(.not-dark) #top-account a:hover,
+.dark #header-wrap:not(.not-dark) #top-search form input {
+    color: #EEE !important;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+}
+
+.color,
+.feature-box.fbox-plain .fbox-icon i,
+.feature-box.fbox-plain .fbox-icon img {
+    color: #0070e9 !important;
+}
+
+.feature-box .fbox-icon i,
+.feature-box .fbox-icon img {
+    border-radius: 50%;
+    background-color: #0070e9 !important;
+}
